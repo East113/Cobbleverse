@@ -1,0 +1,41 @@
+# --- Minecraft instance stuff we DON'T want in git ---
+
+# Worlds (server will have its own world)
+minecraft/saves/
+minecraft/backups/
+
+# Logs & crash reports
+minecraft/logs/
+minecraft/crash-reports/
+
+# Screenshots
+minecraft/screenshots/
+
+# Local config caches / maps (optional)
+minecraft/journeymap/
+minecraft/xaero*
+minecraft/patchouli_data/
+
+# Ignore Fabric generated cache
+minecraft/.fabric/
+
+# Mixin debug output
+minecraft/.mixin.out/
+
+# Prism / runtime downloads & temp artifacts
+minecraft/downloads/
+minecraft/server-resource-packs/
+minecraft/stackdeobf_mappings/
+
+# Mod-generated logs
+minecraft/cobblemon-battle-logs/
+
+# Xaero auto-generated backup folders
+minecraft/XaeroWaypoints_BACKUP*/
+
+# User-specific files you still want ignored
+minecraft/usercache.json
+minecraft/user-prefs.json
+minecraft/realms_persistence.json
+minecraft/command_history.txt
+
